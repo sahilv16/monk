@@ -46,3 +46,29 @@ button:focus{
   outline: none;
   border: none;
 }
+#sign{
+  height: 30px; 
+  width: 100px;
+  padding-left: 15px; 
+  background-color: white; 
+  color: #ff7225;
+  transition: 1s;
+}
+li{
+  transition: 1s;
+}
+li:hover{
+  transform: scale(1.1);
+}
+#sign:hover {
+  background-color: #ff7423;
+  transform: scale(1.1);
+  color: white;
+}
+
+.in{
+  height: 200px; width: 200px; text-align: center; padding-top: 32px ; border-radius: 10%; margin: 10px; -webkit-box-shadow: 0 0 10px rgb(155, 155, 155);box-shadow: 0 0 10px rgb(155, 155, 155);
+}
+.in:hover{
+  -webkit-box-shadow: 0 0 10px rgb(65, 177, 241);box-shadow: 0 0 10px rgb(65, 177, 241);
+}
