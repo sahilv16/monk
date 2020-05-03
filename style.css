@@ -35,3 +35,14 @@ li a {
   padding: 8px;
   background-color: #dddddd;
 }
+#in:hover{
+  box-shadow: blue;
+}
+button{
+    outline: none;
+  border: none;
+}
+button:focus{
+  outline: none;
+  border: none;
+}
